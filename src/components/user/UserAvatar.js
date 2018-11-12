@@ -11,26 +11,26 @@ const UserAvatar = () => {
         <div className="container">
             <h1 className="text-center">Select your avatar</h1>
 
-            <div class="d-flex justify-content-center">
-                <div class="p-2">
+            <div className="d-flex justify-content-center">
+                <div className="p-2">
                     <img 
                             src={ mary } 
                             className="rounded mx-auto d-block" 
                             alt="chatbot_avatar" />
                 </div>
-                <div class="p-2">
+                <div className="p-2">
                     <img 
                             src={ jane } 
                             className="rounded mx-auto d-block" 
                             alt="chatbot_avatar" />
                 </div>
-                <div class="p-2">
+                <div className="p-2">
                     <img 
                             src={ elsa } 
                             className="rounded mx-auto d-block" 
                             alt="chatbot_avatar" />
                 </div>
-                <div class="p-2">
+                <div className="p-2">
                     <img 
                             src={ lucy } 
                             className="rounded mx-auto d-block" 
